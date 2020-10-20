@@ -2,9 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"test": "00_core.ipynb"}
+index = {"rand_par": "02_rec_to_ode.ipynb",
+         "traj_solve": "02_rec_to_ode.ipynb",
+         "traj_2_measurement": "00_traj_to_meas.ipynb"}
 
-modules = ["core.py"]
+modules = ["traj_to_meas.py",
+           "meas_to_rec.py",
+           "rec_to_ode.py"]
 
 doc_url = "https://maimanuel.github.io/sparseodes/"
 

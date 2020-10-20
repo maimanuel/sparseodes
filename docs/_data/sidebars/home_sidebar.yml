@@ -10,8 +10,11 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: Core
-      url: /core
+      title: Trajectories to Measurment of Derivatives
+      url: /rec_to_ode
+    - output: web,pdf
+      title: Title
+      url: /RecErrorVsDeltaT_goodbad_examples
     output: web
     title: sparseodes
   output: web
