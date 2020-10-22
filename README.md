@@ -75,7 +75,7 @@ plt.tight_layout()
 
 
 These are some trajectories of the 2 dimensional harmonic oscillator system which is given by the following ODE  
-$ \begin{equation*}
+$ \begin{equation}
 \frac{d}{dt} x = 
 \frac{d}{dt}
 \begin{pmatrix}
@@ -92,7 +92,7 @@ x_2 \\
 f_1 \\
 f_2 \\
 \end{pmatrix}\, .
-\end{equation*}
+\end{equation}
 $  
 Solutions of this ODE system are time series of values $x_1(t)$ and $x_2(t)$.
 The goal of this library is to find approximate representations of the functions $f_1$ and $f_2$ from a set of ODE solutions $x_1(t)$, $x_2(t)$ and create an ODE object that can be used to find new solutions $x^`_1(t)$, $x^`_2(t)$.
