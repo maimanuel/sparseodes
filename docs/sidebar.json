@@ -1,7 +1,10 @@
 {
   "sparseodes": {
     "Overview": "/",
-    "Trajectories to Measurment of Derivatives": "/rec_to_ode",
-    "Title": "/RecErrorVsDeltaT_goodbad_examples"
+    "Trajectories to Measurment of Derivatives": "/traj_to_meas",
+    "Measurement of Derivatives to Reconstruction": "/meas_to_rec",
+    "Reconstruction to ODE": "/rec_to_ode",
+    "Examples 1D": "/examples_1D",
+    "Examples 2D": "/examples_2D"
   }
 }

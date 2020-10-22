@@ -11,10 +11,19 @@ entries:
       url: /
     - output: web,pdf
       title: Trajectories to Measurment of Derivatives
+      url: /traj_to_meas
+    - output: web,pdf
+      title: Measurement of Derivatives to Reconstruction
+      url: /meas_to_rec
+    - output: web,pdf
+      title: Reconstruction to ODE
       url: /rec_to_ode
     - output: web,pdf
-      title: Title
-      url: /RecErrorVsDeltaT_goodbad_examples
+      title: Examples 1D
+      url: /examples_1D
+    - output: web,pdf
+      title: Examples 2D
+      url: /examples_2D
     output: web
     title: sparseodes
   output: web
