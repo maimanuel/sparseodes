@@ -110,17 +110,11 @@ Now we can easily visualize the measurements of the two-dimensional funcions $f_
 f,ax=plt.subplots(1,2,figsize=(10,22))
 ax[0].imshow(t2m.f_ms[0][10:90,10:90],vmin=-2,vmax=+2,cmap='ocean')
 ax[1].imshow(t2m.f_ms[1][10:90,10:90],vmin=-2,vmax=+2,cmap='ocean')
+plt.show()
 ```
 
 
-
-
-    <matplotlib.image.AxesImage at 0x11729a6a0>
-
-
-
-
-![png](docs/images/output_13_1.png)
+![png](docs/images/output_13_0.png)
 
 
 ### Measurements to Recontruction on Grid
