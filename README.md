@@ -31,7 +31,7 @@ rand_par({"A": 2},0.3)
 
 
 
-    {'A': 3.3650467282224596}
+    {'A': 2.852394330567982}
 
 
 
@@ -103,22 +103,19 @@ Let's utilize the first class `traj_to_measurement` in this library. Under the h
 t2m = traj_2_measurement(traj,time)
 ```
 
-    2
-
-
 Now we can easily visualize the measurements of the two-dimensional funcions $f_1(x_1,x_2)$ and $f_2(x_1,x_2)$ along the trajectories.
 
 ```python
-#hide-input
+#hide_input
 f,ax=plt.subplots(1,2,figsize=(10,22))
-ax[0].imshow(t2m.f_ms[0],vmin=-2,vmax=+2,cmap='ocean')
-ax[1].imshow(t2m.f_ms[1],vmin=-2,vmax=+2,cmap='ocean')
+ax[0].imshow(t2m.f_ms[0][10:90,10:90],vmin=-2,vmax=+2,cmap='ocean')
+ax[1].imshow(t2m.f_ms[1][10:90,10:90],vmin=-2,vmax=+2,cmap='ocean')
 ```
 
 
 
 
-    <matplotlib.image.AxesImage at 0x122c20438>
+    <matplotlib.image.AxesImage at 0x11729a6a0>
 
 
 
