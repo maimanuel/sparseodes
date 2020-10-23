@@ -24,17 +24,6 @@
 
 To demonstrate how to use the library let's generate a few trajectories.
 
-```python
-rand_par({"A": 2},0.3)
-```
-
-
-
-
-    {'A': 2.852394330567982}
-
-
-
 ### Example - Harmonic Oscillator
 
 ```python
@@ -71,7 +60,7 @@ plt.tight_layout()
 ```
 
 
-![png](docs/images/output_9_0.png)
+![png](docs/images/output_8_0.png)
 
 
 These are some trajectories of the 2 dimensional harmonic oscillator system which is given by the following ODE  
@@ -114,7 +103,7 @@ plt.show()
 ```
 
 
-![png](docs/images/output_13_0.png)
+![png](docs/images/output_12_0.png)
 
 
 ### Measurements to Recontruction on Grid
